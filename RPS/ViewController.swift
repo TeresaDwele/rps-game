@@ -60,7 +60,8 @@ class ViewController: UIViewController {
             scissorsButton.isHidden = false
         
         }
-        
+        playAgainButton.isHidden = false
+        playAgainButton.isEnabled = true
     
     }
     @IBAction func playAgainAction(_ sender: Any) {
